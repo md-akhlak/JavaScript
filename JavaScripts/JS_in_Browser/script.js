@@ -60,19 +60,29 @@
 //   document.write("Please allow this page");
 // }
 
-
 // BOM , DOM and Window Obejcts
 
-// DOM :- Document Object model
-window.console.log(window)
+// // DOM :- Document Object model
+// window.console.log(window);
 
-// window.alert("this is alert alert")
+// // window.alert("this is alert alert")
 
-console.log(document.body)
-document.body.style.color="#FFFFFF"
+// console.log(document.body);
+// document.body.style.color = "#FFFFFF";
 
 // BOM :- Browser Object model
 
+// Practice Question
 
+let age = prompt("Enter your age");
+age = Number.parseInt(age);
 
+const canDrive = (age) => {
+  return age >= 18 ? true : false;
+};
 
+if (canDrive(age)) {
+  alert("Your can drive");
+} else {
+  alert("Your cannot drive");
+}
