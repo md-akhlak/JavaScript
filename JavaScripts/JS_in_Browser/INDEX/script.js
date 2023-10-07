@@ -62,10 +62,11 @@
 
 // BOM , DOM and Window Obejcts
 
-// // DOM :- Document Object model
+// DOM :- Document Object model
+
 // window.console.log(window);
 
-// // window.alert("this is alert alert")
+// window.alert("this is alert alert")
 
 // console.log(document.body);
 // document.body.style.color = "#FFFFFF";
@@ -74,15 +75,26 @@
 
 // Practice Question
 
-let age = prompt("Enter your age");
-age = Number.parseInt(age);
+// let age = prompt("Enter your age");
+// age = Number.parseInt(age);
 
-const canDrive = (age) => {
-  return age >= 18 ? true : false;
-};
+// const canDrive = (age) => {
+//   return age >= 18 ? true : false;
+// };
 
-if (canDrive(age)) {
-  alert("Your can drive");
-} else {
-  alert("Your cannot drive");
-}
+// if (canDrive(age)) {
+//   alert("Your can drive");
+// } else {
+//   alert("Your cannot drive");
+// }
+
+// location.href= "https://github.com"
+
+// dom manipulation
+console.log(document.body.firstChild);
+console.log(document.body.lastChild);
+console.log(document.body.childNodes);
+
+let arr  = Array.from(document.body.childNodes); // print the chindnodes like array
+console.log(arr)
+
