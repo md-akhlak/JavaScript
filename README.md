@@ -1,2 +1,3 @@
 # JavaScript
-This Repository consist Code sample of javaScript
+
+-> This Repository consist Code sample of javaScript

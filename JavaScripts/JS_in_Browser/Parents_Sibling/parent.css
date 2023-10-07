@@ -8,3 +8,10 @@ html, body{
     font-size: 50px;
 
 }
+p{
+/* The CSS property `font-style: oblique;` is used to apply an oblique or slanted style to the text. It
+makes the text appear tilted or slanted towards the right. */
+    font-style: oblique;
+    font-size: 20px;
+}
+
