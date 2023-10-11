@@ -79,6 +79,10 @@ for (let i = 1; i <= 10; i++) {
   console.log(tableOf + " + " + i + " = " + tableOf * i);
 }
 
+let arr = [1, 3, "AKhlak", "Samar", "Ramish"];
 
-
-
+for (let elements of arr) {
+  for (let j in arr) {
+    console.log(elements, j);
+  }
+}
