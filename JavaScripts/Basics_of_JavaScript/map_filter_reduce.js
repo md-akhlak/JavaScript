@@ -1,4 +1,11 @@
 // map :- return new array
+/*
+let newArray = arr.map(callBack(currentValue[,index[, array]]){
+  return element for newArray , after executing something
+}[, this args]);
+*/
+
+// Returns a new array containing the results of calling a function on every element in this array
 
 console.log("DISPLAYIN MAP");
 let arr1 = [1, 2, 3, 4, 5];
@@ -7,6 +14,30 @@ let arr1a = arr1.map((value, index, array) => {
   return value + 1; // display array index
 });
 console.log(arr1a);
+console.log("\n");
+
+// 2 , num > 9
+
+const myArray = [23, 4, 23, 1, 23];
+
+let myNewArray = myArray.map((curValue, index, arr) => {
+  return curValue > 9;
+});
+console.log(myNewArray);
+console.log(myArray);
+
+// in map call back function first argument is :- 1st array element , 2nd array index , rd array
+
+let secondArray = [23, 42, 41, 2, 45, 122, 4, 12];
+let newSecondArray = secondArray.map((curElem, index, Arr) => {
+  return `Index : ${index} -> curElement -> ${curElem} -> Array : ${Arr}`;
+});
+
+console.log(newSecondArray);
+
+
+
+
 
 //  Filter :- Filter the array after the some operation
 
