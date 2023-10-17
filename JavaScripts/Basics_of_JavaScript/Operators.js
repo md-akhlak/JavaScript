@@ -84,5 +84,3 @@ let myAge = 18;
 // console.log(myAge)
 console.log(myAge >= 18 ? "You can vote" : "You can't vote");
 // console.log(myAge)
-
-

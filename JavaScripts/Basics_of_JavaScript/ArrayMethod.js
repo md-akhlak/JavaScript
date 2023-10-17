@@ -1,7 +1,5 @@
 // // 2:- Searching and filter in an array
 
-
-
 // // Array . push() mehtod :- Add new elements at the end of the array
 // // push method :- returns the new array size
 
@@ -22,8 +20,8 @@
 // console.log(`The new array is : ${unshiftArray}`);
 // console.log(unshiftArray.length);
 
-// // pop method() :- removes the last element from an array and return 
-// // that element. This method changes the length of the array 
+// // pop method() :- removes the last element from an array and return
+// // that element. This method changes the length of the array
 
 // const popArray = ['brockley ', 'cauliflower' ,'Cabbage', 'Coriender']
 // console.log(`The old array is : ${popArray}`);
@@ -32,7 +30,6 @@
 // console.log(popArray.pop());
 // console.log(`The old array is : ${popArray}`);
 // console.log(popArray.length); // return 3
-
 
 // // shift method() :- removes the first element from an array and returns
 // // that that removed element. This method changes the length of the array
@@ -46,13 +43,13 @@
 
 // *****************************************************************************************
 // Splice method :-  used to add, remove, or replace elements in an array
-// SYNTAX :- array.splice(start , deleteCount, item1 , item2, ...) 
+// SYNTAX :- array.splice(start , deleteCount, item1 , item2, ...)
 
 // 1- removing element from an array
-const fruitLists = ["mango", 'apple', "Orange", "Banana", "PinApple"];
+const fruitLists = ["mango", "apple", "Orange", "Banana", "PinApple"];
 console.log(fruitLists);
 
-const newFruitList = fruitLists.indexOf('Banana');
+const newFruitList = fruitLists.indexOf("Banana");
 
 // if(newFruitList != -1){
 //     const newFruitList = fruitLists.splice(newFruitList , 1);
@@ -63,21 +60,20 @@ const newFruitList = fruitLists.indexOf('Banana');
 // }
 
 // 2:- Update element in an array
-const nameList = ['samar', 'akhlak', 'shahnwaz', 'ramish'];
+const nameList = ["samar", "akhlak", "shahnwaz", "ramish"];
 console.log(nameList);
 
-const indexOfName = nameList.indexOf('shawaz');
+const indexOfName = nameList.indexOf("shawaz");
 
-if(indexOfName != -1){
-    const newNameList = nameList.splice(indexOfName,1,"SHAHNWAZ");
-    console.log(nameList);
-}
-else{
-    console.log("no such data found!");
+if (indexOfName != -1) {
+  const newNameList = nameList.splice(indexOfName, 1, "SHAHNWAZ");
+  console.log(nameList);
+} else {
+  console.log("no such data found!");
 }
 
 // Replacing Element in an array
-const Animal = ["tiger", 'lion', 'girrafe', 'dear'];
+const Animal = ["tiger", "lion", "girrafe", "dear"];
 console.log(Animal);
-Animal.splice(1, 1 , "Cheetah"); // replaces lion with cheetah
+Animal.splice(1, 1, "Cheetah"); // replaces lion with cheetah
 console.log(Animal);

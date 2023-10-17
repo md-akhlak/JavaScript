@@ -38,7 +38,7 @@ The initial value of NaN is undefined
 */
 
 var myPhhoneNuber = 9834823493;
-var myName  = "Md Akhlak";
+var myName = "Md Akhlak";
 
 console.log(myPhhoneNuber);
 console.log(myName);

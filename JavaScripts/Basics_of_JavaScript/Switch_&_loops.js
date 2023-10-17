@@ -9,15 +9,12 @@
 //     f.close ();
 // } )
 
-
-
 // for loop
 for (let i = 0; i < 10; i++) {
   debugger;
   console.log(i);
 }
 console.log("for loop done");
-
 
 // While loop
 let x = 2;
@@ -27,7 +24,6 @@ while (x <= 10) {
 }
 console.log("while loop done");
 
-
 // do-while loop
 let y = 0;
 do {
@@ -35,9 +31,6 @@ do {
   y++;
 } while (y <= 10);
 console.log("do-while loop done");
-
-
-
 
 // Switch case
 let b = 40;

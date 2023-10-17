@@ -112,5 +112,3 @@ let numArray = mulArray
 console.log(
   `the current element : ${mulArray} and the greater the 10 is : ${numArray}`
 );
-
-
