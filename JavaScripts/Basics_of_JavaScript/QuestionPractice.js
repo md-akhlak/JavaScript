@@ -112,3 +112,16 @@ let numArray = mulArray
 console.log(
   `the current element : ${mulArray} and the greater the 10 is : ${numArray}`
 );
+
+
+// WAP to display only 260 characters of string
+
+let myTweet = "lorem ipsum dolor sit amets saf sf sfskdmfsd dsf sdfdsfsdmsfsd fsd f safs f fsdfjdsfdsjnfdssdfsdsd sdkfsd fdsisdfdsmf sddsfnsdf sd  sdfkl asdfad f dfd glkSNEROJWNKADS DSFN DSM   fs aADGADasdg as gdsflkjdkgj df adkjkkdskfj  dkfhk jsd kfsfkdh fudkdsiu hnkjdh gidugfkengkladfko eornewou dkjfsklldhow sbdfiuash owjiu vhdofjawuo hdpo asfhdsklfhas";
+
+let actualTweet = myTweet.slice(0, 280);
+console.log(actualTweet);
+console.log(actualTweet.length);
+
+
+
+
