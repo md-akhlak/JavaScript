@@ -79,10 +79,38 @@ for (let i = 1; i <= 10; i++) {
   console.log(tableOf + " + " + i + " = " + tableOf * i);
 }
 
-let arr = [1, 3, "AKhlak", "Samar", "Ramish"];
+// let arr = [1, 3, "AKhlak", "Samar", "Ramish"];
 
-for (let elements of arr) {
-  for (let j in arr) {
-    console.log(elements, j);
-  }
-}
+// for (let elements of arr) {
+//   for (let j in arr) {
+//     console.log(elements, j);
+//   }
+// }
+
+// Find the sqare of each element in an array
+
+let squareArray = [64, 49, 81, 25, 64];
+
+console.log(`the Array is : ${squareArray}`);
+let sqArr = squareArray.map((curElem) => {
+  return Math.sqrt(curElem);
+});
+console.log(`the square root of ${squareArray} is :  ${sqArr}`);
+
+// Multiply each element by 2 and return only those element which are greater than 10
+
+let mulArray = [2, 6, 5, 7, 8, 12];
+
+let numArray = mulArray
+  .map((curElem) => {
+    return curElem * 2;
+  })
+  .filter((curElem) => {
+    return curElem > 10;
+  });
+
+console.log(
+  `the current element : ${mulArray} and the greater the 10 is : ${numArray}`
+);
+
+
