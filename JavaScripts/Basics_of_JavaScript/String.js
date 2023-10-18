@@ -63,3 +63,15 @@ c :- substr(start, length) :- similar to slice(start, end) , but difference is t
 // ***********************************************************************************************
 // 5 :- ReplacinG string content :- String.prototype.replace(searchFor, replaceWith)
 // Replaces the specified value with another value in string
+
+
+// string.trim():- this method removes whitespace from both sides of a string
+
+let trimString = "Hello     world    ";
+console.log(trimString.trim());
+
+
+
+
+// Method to convert string to a array
+// this can be done by the string.split() method
