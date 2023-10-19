@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+</head>
+
+<body>
+
+    <p>CLick the button to display a date after changing</p>
+
+    <button onclick="myFunction()"> click </button>
+
+    <p id="demo"></p>
+
+    <script>
+        // function myFunction() {
+        //     var t = new Date();
+        //     t.setHours(5);
+        //     document.getElementById("demo").innerHTML = t;
+        // }
+
+
+        (function(){
+            setInterval(()=>{
+                var d = new Date().toLocaleTimeString();
+                // var d = new Date().toLocaleDateString();
+                // console.log(new Date().toLocaleTimeString());
+                document.getElementById("demo").innerHTML = d;
+            }, 1000);
+        })();
+    </script>
+
+</body>
+
+</html>
