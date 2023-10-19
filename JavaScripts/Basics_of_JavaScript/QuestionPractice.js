@@ -125,9 +125,12 @@ console.log(actualTweet.length);
 
 // Question Related to Date and time
 
-new Date().toLocaleTimeString() // 2:16:34
-// 
-new Date().toLocaleDateString() // 19/10/2023
-// 
-new Date().toLocaleString() //19/10/2025 , 2:16:34
+// new Date().toLocaleTimeString() // 2:16:34
+// // 
+// new Date().toLocaleDateString() // 19/10/2023
+// // 
+// new Date().toLocaleString() //19/10/2025 , 2:16:34
+
+
+
 

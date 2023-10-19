@@ -13,14 +13,27 @@
 
     <button onclick="myFunction()"> click </button>
 
+    <p id="Time"></p>
+    <p id="date"></p>
     <p id="demo"></p>
 
     <script>
         // function myFunction() {
         //     var t = new Date();
         //     t.setHours(5);
-        //     document.getElementById("demo").innerHTML = t;
+        //     document.getElementById("demodocument.getElementById("demo").innerHTML = t;").innerHTML = t;
         // }
+    
+
+        // var t = new Date().toLocaleTimeString() // 2:16:34
+        // document.getElementById("Time").innerHTML = t;
+
+        var d = new Date().toLocaleDateString() // 19/10/2023
+        document.getElementById("date").innerHTML = d;
+
+        // new Date().toLocaleString() //19/10/2025 , 2:16:34
+        // document.getElementById("demo").innerHTML;
+
 
 
         (function(){
