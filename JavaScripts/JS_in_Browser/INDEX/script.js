@@ -88,7 +88,9 @@
 //   alert("Your cannot drive");
 // }
 
-// location.href= "https://github.com"
+
+
+location.href= "https://github.com"
 
 // dom manipulation
 console.log(document.body.firstChild);
@@ -97,4 +99,9 @@ console.log(document.body.childNodes);
 
 let arr  = Array.from(document.body.childNodes); // print the chindnodes like array
 console.log(arr)
+
+
+
+// ************************************************************************************
+
 

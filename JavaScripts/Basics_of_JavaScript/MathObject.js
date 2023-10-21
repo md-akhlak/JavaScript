@@ -19,8 +19,8 @@ console.log(Math.sqrt(81));
 
 // 5:-Mat.abs() - returns the absulate value of X conver -ve to +ve value;
 
-console.log(Math.abs(-32));
-console.log(Math.abs(-13.32));
+console.log(Math.abs(-32));  //32
+console.log(Math.abs(-13.32));  // 13
 console.log(Math.abs(-32.214));
 console.log(Math.abs(32.5));
 console.log(Math.abs(4-12)) ; // 8
@@ -55,6 +55,8 @@ console.log( Math.floor(Math.random()*10) ); // 0 to 9
 
 console.log(Math.trunc(4.8)) // 4
 console.log(Math.trunc(-23.7)) // 99
+
+
 
 
 
