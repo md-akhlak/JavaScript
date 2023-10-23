@@ -54,7 +54,7 @@ console.log( Math.floor(Math.random()*10) ); // 0 to 9
 // 11:- Math.trunc()- returns the integer part of a number , doesn't give decimal part of number
 
 console.log(Math.trunc(4.8)) // 4
-console.log(Math.trunc(-23.7)) // 99
+console.log(Math.trunc(-23.7)) // 33
 
 
 
