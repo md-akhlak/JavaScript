@@ -90,18 +90,25 @@
 
 
 
-location.href= "https://github.com"
+    location.href= "https://github.com"
 
-// dom manipulation
-console.log(document.body.firstChild);
-console.log(document.body.lastChild);
-console.log(document.body.childNodes);
+    // dom manipulation
+    console.log(document.body.firstChild);
+    console.log(document.body.lastChild);
+    console.log(document.body.childNodes);
 
-let arr  = Array.from(document.body.childNodes); // print the chindnodes like array
-console.log(arr)
+    let arr  = Array.from(document.body.childNodes); // print the chindnodes like array
+    console.log(arr)
 
 
 
 // ************************************************************************************
+
+// DOM :- Document Object Model in JS
+
+// window is a main container or we can say the global object and and
+// any operation related to to entire browser window can be a part of window object
+
+// for ex :- 
 
 
