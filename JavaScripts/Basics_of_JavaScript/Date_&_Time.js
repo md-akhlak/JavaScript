@@ -18,7 +18,7 @@ milliseconds since 1 January 1970 UTC.
 // Date objects are created with the new Date() constructor
 
 const cuRDate = new Date();
-console.log(curDate);
+console.log(cuRDate);
 
 console.log(new Date());
 console.log(new Date().toLocaleString());

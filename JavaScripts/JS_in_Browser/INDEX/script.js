@@ -104,11 +104,4 @@
 
 // ************************************************************************************
 
-// DOM :- Document Object Model in JS
-
-// window is a main container or we can say the global object and and
-// any operation related to to entire browser window can be a part of window object
-
-// for ex :- 
-
 
