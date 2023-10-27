@@ -25,4 +25,12 @@
 // performed using BOM
 
 
+// alert(location.href);
+//         if(confirm('Are you sure you want to visit ')){
+//             location.href = "http://www.google.com";
+//         }
 
+
+// const changeContent = () =>{
+//     document.getElementById('heading').innerHTML = "i welcome you";
+// }

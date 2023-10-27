@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="domNavigation.css">
+</head>
+
+<body>
+
+    <!-- <div class="mainDiv">
+        <div class="child_1">
+            <p>I am child one</p>
+        </div>
+        <div class="child_2">
+            <p>I am child two</p>
+        </div>
+        <div class="child_3">
+            <p>I am child three</p>
+        </div>
+    </div>
+
+    <div id="idDiv">
+        <p>this is Id Div</p>
+    </div> -->
+
+    <p class="para">My name is Md Akhlak</p>
+    <p class="para">I am pursing B-tech</p>
+    <p>You can Add me on Github and linkedin </p>
+    <h1 id="heading">This is heading H1</h1>
+
+
+    <button onclick="changeContent()">Click Me</button>
+
+
+    <script>
+
+    const changeContent = () =>{
+        // document.getElementById('heading').innerHTML = "i welcome you";
+
+
+
+
+        const headingChange = document.getElementById('heading');
+        headingChange.innerHTML = "i welcome you"
+
+
+        // console.log(document.getElementsByClassName('para'));
+        
+        // console.log(document.getElementsByTagName('p'));
+
+
+        // Query selector only changes the first element
+
+        document.querySelector('#heading').innerHTML = "this heading changed again";
+
+        document.querySelector('.para').innerHTML = "this paragraph changed again";
+
+
+        console.log(document.querySelectorAll('#heading'));
+
+        console.log(document.querySelectorAll('.para'));
+
+
+
+
+
+
+    }
+
+
+    </script>
+
+</body>
+
+</html>

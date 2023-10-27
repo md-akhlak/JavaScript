@@ -1,0 +1,19 @@
+body {
+    background: cornflowerblue;
+    text-align: center;
+}
+
+
+p {
+    color: rgba(255, 255, 250, .8);
+}
+
+h1 {
+    color: aquamarine;
+}
+
+button {
+    cursor: pointer;
+    color: black;
+    background-color: yellow;
+}

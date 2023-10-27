@@ -1,0 +1,15 @@
+Q-1 :- what is the difference between getElementById and querySelector ?
+ans :- 
+
+(1) :- what is getElementById()?
+syntax :
+element = document.getElementById(id);
+
+return a reference to the element by its ID.
+if the element with the specified ID is not in the document,it will return NULL.
+
+(2) :- what is querySelector?
+syntax :
+element = document.querySelector(Selector);
+return the first element within the document, that matches the specified group of Selector, or NULL is no mathes are found.
+
