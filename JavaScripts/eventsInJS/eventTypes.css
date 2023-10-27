@@ -1,0 +1,76 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #2a364f;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.credit {
+    text-align: center;
+    color: white;
+}
+
+.content {
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.button_container {
+    width: 175px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.button_su {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0, 0.6);
+}
+
+.su_button_circle {
+    background-color: rebeccapurple;
+    border-radius: 1000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    pointer-events: none;
+}
+
+.button_su_inner {
+    display: inline-block;
+    background: #f8B627;
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    width: 130px;
+    text-align: center;
+    border-radius: 3px;
+    transition: 400ms;
+    text-decoration: none;
+    padding: 22px;
+    z-index: 100000;
+}
+
+.button_text_container {
+    position: relative;
+    z-index: 100000;
+}
+
+.explode-circle {
+    animation: explode 0.5s forwards;
+}
+
+.displode-circle {
+    animation: displode 0.5s forwards;
+}
