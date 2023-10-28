@@ -20,7 +20,9 @@
 */
 
 
-// Section 1 : 4 ways of writing events in javascript
+// Section 1 :
+
+//  4 ways of writing events in javascript
 /*
 1- using inline events alert();
 2- by calling a function 
@@ -47,6 +49,30 @@
 // fourthWay.addEventListener('click', () => {
 //     alert('i love this way of writing a function');
 // })
+
+
+
+// section 2:
+// what is Event Object?
+// Event Object is the parent object of the event object
+// example:
+// mouseevent , focusevent , keyboardevent etc;
+
+
+// section 3:
+// what is mouseEvent Object?
+// events that occur when the mouse interact with the html document
+// are belong to the mouseEvent object
+
+// section 4:
+// what is keyboardEvent in JavaScript?
+// events that when user presses a key on the keyboard, are 
+// belong to the keyboardEvent object
+
+// section 5:
+// inputEvents in javascript
+//The onchange event occurs when the value of an element has been changed
+//for radio-button and checkboxes, the onchange event occurs when the checked has been changed 
 
 
 

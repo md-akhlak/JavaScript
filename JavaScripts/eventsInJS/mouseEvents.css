@@ -1,0 +1,43 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #2a364f;
+    display: grid;
+    place-items: center;
+}
+
+button {
+    display: inline-block;
+    background: #F8B627;
+    color: white;
+    font-weight: normal;
+    width: 132px;
+
+}
+
+p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    color: aquamarine;
+}
+
+
+/* mouse enter leave */
+
+
+.main_div {
+    height: 100vw;
+    width: 100vw;
+    display: grid;
+    /* align-items: center; */
+    place-items: center;
+
+}
+
+#box {
+    height: 100px;
+    width: 100px;
+    background: gold;
+}

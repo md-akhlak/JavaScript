@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MouseEvents</title>
+    <!-- <link rel="stylesheet" href="eventTypes.css"> -->
+    <link rel="stylesheet" href="mouseEvents.css">
+</head>
+
+<body>
+
+    <p id="myP" onmousedown="mouseDowm()" onmouseup="mouseUp()">
+        click the text! The mouseDowm() function is trigerred when the mouse button is
+        relased , and sets the color of the text green
+    </p>
+
+
+    <!-- mouse Enter leave -->
+
+    <div class="main_div">
+        <div id="box"></div>
+    </div>
+
+
+    <!-- keyboard Events in JavaScript -->
+
+    <div>
+        <p>A function is triggeres when the user presses a key in the input field</p>
+        <br>
+        <input type="text" class="effect_1" , onkeypress="keyPress()" onkeydown="keyDown" onkeyup="keyUp">
+        <br>
+        <p id="keys"></p>
+    </div>
+
+
+
+    <script>
+
+        function mouseDown() {
+            document.getElementById("myP").style.color = "#F8B627";
+        }
+
+
+        function mouseUp() {
+            document.getElementById("myP").style.color = 'red';
+        }
+
+        // *********************************************************************
+        // mouse enter leave
+
+        const mEnter = document.getElementById('box');
+
+        mEnter.addEventListener('mouseenter', () => {
+            mEnter.style.backgroundColor = 'red';
+            console.log('Mouse Enter bro');
+        })
+
+        mEnter.addEventListener('mouseleave', () => {
+            console.log('Mouse leave bro');
+            mEnter.style.backgroundColor = 'black';
+        })
+
+
+        // keyboard events
+
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

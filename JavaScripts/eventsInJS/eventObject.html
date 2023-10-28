@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventObject</title>
+    <link rel="stylesheet" href="eventTypes.css">
+</head>
+
+<body>
+
+    <div class="content">
+        <h1>let' s See what is Event Object </h1>
+        <div class="button_container">
+            <div class="button_su">
+                <span class="su_button_circle">
+                </span>
+                <a href="#" class="button_su_inner" id="fourthWay">
+                    <span class="button_text_container">
+                        Events Listeners
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        const fourthWay = document.getElementById('fourthWay');
+
+        const checkEvent = () =>{
+            alert('this is Event object');
+            console.log(event);
+            console.log(event.target);
+            console.log(event.type);
+            // console.log(event.target.name);
+        }
+
+        fourthWay.addEventListener('click', checkEvent);
+
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
