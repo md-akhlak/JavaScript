@@ -13,3 +13,13 @@ syntax :
 element = document.querySelector(Selector);
 return the first element within the document, that matches the specified group of Selector, or NULL is no mathes are found.
 
+
+Q-2 :- what is difference between inlineEvent and addEventListener ?
+ans :-
+
+conclusion :
+-> This is because the addEventListener doesnot overwrite the exising event handler,
+whereas onclick overrides any existing onClick = func eventLinstener
+
+-> The other significant difference is that onClick will always work, whereas addEventListener does not work in internet Explorer before version 9;
+
