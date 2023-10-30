@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>setInterval</title>
+    <title>clear_Interval</title>
 
     <style>
         body {
@@ -33,8 +33,6 @@
 
         }
     </style>
-
-
 </head>
 
 <body>
@@ -45,7 +43,7 @@
             <p>can you stop we when I reach at 5</p>
             <br>
             <button id="btn">Start</button>
-            <!-- <button id="btn"> Stop</button> -->
+            <button id="btn"> Stop</button>
         </div>
     </div>
 
@@ -56,26 +54,27 @@
         const stopNum = document.querySelector('p');
         const btn = document.querySelector('#btn');
 
-        // let timRef;
+        let timeRef;
         let num = 0;
 
-        const showMyNum = () =>{
-            stopNum.innerHTML = 'loading...';
-            setInterval(() =>{
-            stopNum.innerHTML = `${num}`;
+        const showMyNum = () => {
+            timeRef =  stopNum.innerHTML = 'loading...';
+            setInterval(() => {
+                stopNum.innerHTML = `${num}`;
                 num++;
-            },1000);
-            
+            }, 1000);
+
         }
 
-        btn.addEventListener('click' , showMyNum);
+        btn.addEventListener('click', showMyNum);
 
-        // stopInterval.addEventListener('click' , () =>{
-        //     clearInterval(timeRef);
-        // })
+        stopInterval.addEventListener('click' , () =>{
+            clearInterval(timeRef);
+        })
 
 
     </script>
+
 
 </body>
 
