@@ -58,7 +58,7 @@
         let num = 0;
 
         const showMyNum = () => {
-            timeRef =  stopNum.innerHTML = 'loading...';
+            timeRef = stopNum.innerHTML = 'loading...';
             setInterval(() => {
                 stopNum.innerHTML = `${num}`;
                 num++;
@@ -68,7 +68,7 @@
 
         btn.addEventListener('click', showMyNum);
 
-        stopInterval.addEventListener('click' , () =>{
+        stopInterval.addEventListener('click', () => {
             clearInterval(timeRef);
         })
 
